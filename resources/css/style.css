@@ -7,8 +7,8 @@ html {
     text-align: center;
 }
 
-body {
-    margin-top: 70px;
+#featured {
+    padding-top: 70px;
 }
 
 /* Header styling */
@@ -61,5 +61,23 @@ a {
 .text {
     background-color: black;
     width: 100%;
+}
+
+/* Featured styling */
+
+
+.flex-container {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item img{
+    padding: 5px;
+    height: 200px;
+    width: 300px;
+    margin: 10px;
 }
 
