@@ -5,10 +5,7 @@ html {
     background-color: black;
     opacity: 1;
     text-align: center;
-}
-
-#featured {
-    padding-top: 70px;
+    font-weight: bold;
 }
 
 /* Header styling */
@@ -41,6 +38,7 @@ li {
     display: inline;
     text-decoration: underline;
     margin: 10px;
+    font-weight: normal;
 }
 
 a {
@@ -65,11 +63,16 @@ a {
 
 /* Featured styling */
 
+#featured {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
 
 .flex-container {
     display: flex;
     width: 1000px;
     margin: 0 auto;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -81,3 +84,39 @@ a {
     margin: 10px;
 }
 
+/* Locations styling */
+
+#locations {
+    background-image: url(../images/img-locations-background.webp);
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+.location {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.location p {
+    font-weight: normal;
+}
+
+/* Contact styling */
+
+.contact {
+    height: 200px;
+}
+
+/* Footer styling */
+
+footer {
+    text-align: left;
+    padding-left: 20px;
+}
