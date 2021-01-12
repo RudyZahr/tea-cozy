@@ -1,0 +1,46 @@
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+/* header styling*/
+header{
+    height: 69px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    width: 100%;
+}
+
+header img{
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 15px;
+    display: inline-block;
+    float: left;
+}
+
+nav{
+    display:inline;
+    float: right;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+a {
+    color: seashell;
+}
+
+body {
+    margin-top: 70px;
+}
